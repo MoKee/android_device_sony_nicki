@@ -1,5 +1,9 @@
 [
   {
+    "repository": "android_vendor_sony_nicki",
+    "target_path": "vendor/sony/nicki"
+  },
+  {
     "repository": "android_device_sony_msm8960-common",
     "target_path": "device/sony/msm8960-common"
   },
