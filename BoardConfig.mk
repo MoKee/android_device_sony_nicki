@@ -35,7 +35,7 @@ BOARD_KERNEL_BASE := 0x80200000
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000
 TARGET_KERNEL_SOURCE := kernel/sony/msm8x27
-TARGET_KERNEL_CONFIG := cyanogenmod_nicki_defconfig
+TARGET_KERNEL_CONFIG := mokee_nicki_defconfig
 
 # Partitions
 TARGET_USERIMAGES_USE_EXT4 := true
@@ -99,7 +99,7 @@ TARGET_USES_LOGD := false
 
 BOARD_USES_LEGACY_MMAP := true
 
-BOARD_HARDWARE_CLASS := device/sony/nicki/cmhw/
+BOARD_HARDWARE_CLASS := device/sony/nicki/mkhw/
 
 # Sepolicy
 include device/qcom/sepolicy/sepolicy.mk
