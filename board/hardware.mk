@@ -1,0 +1,8 @@
+# MK Hardware
+BOARD_HARDWARE_CLASS := $(DEVICE_PATH)/mkhw
+
+# Lights
+TARGET_PROVIDES_LIBLIGHT := true
+
+# Qualcomm Time
+BOARD_USES_QC_TIME_SERVICES := true
