@@ -14,8 +14,8 @@
 # limitations under the License.
 #
 
-# Inherit common CM stuff
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit common MK stuff
+$(call inherit-product, vendor/mk/config/common_full_phone.mk)
 
 # Inherit device configurations
 $(call inherit-product, device/sony/nicki/device.mk)
@@ -26,7 +26,7 @@ TARGET_SCREEN_WIDTH := 480
 
 # Device identifications
 PRODUCT_DEVICE := nicki
-PRODUCT_NAME := cm_nicki
+PRODUCT_NAME := mk_nicki
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_MODEL := nicki
